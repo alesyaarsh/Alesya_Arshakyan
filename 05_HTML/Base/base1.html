@@ -14,8 +14,8 @@
                     <legend>Строка поиска</legend>
                     <input type="text" name="search" maxlength="10" required>
                     <input type="submit" value="Искать"><br>
-                    <input type="radio" name="radio" value="site" required>на сайте
-                    <input type="radio" name="radio" value="google" required>в google
+                    <label><input type="radio" name="radio" value="site" required>на сайте</label>
+                    <label><input type="radio" name="radio" value="google" required>в google</label>
                     <br><i>Длина запроса не более 10 символов</i>
                 </fieldset>
             </form>
@@ -26,8 +26,8 @@
                     <legend>Строка поиска</legend>
                     <input type="text" name="search" required autofocus>*
                     <input type="submit" value="Искать"><br>
-                    <input type="radio" name="radio1" value="site" required>на сайте
-                    <input type="radio" name="radio1" value="google" required>в google
+                    <label><input type="radio" name="radio1" value="site" required>на сайте</label>
+                    <label><input type="radio" name="radio1" value="google" required>в google</label>
                     <br><i>* - обязательное поле для заполнения</i>
                     <br><i>Автофокус в поле поиска</i>
                 </fieldset>
@@ -39,9 +39,9 @@
             <form name="login" method="post" action="http://fe.it-academy.by/TestForm.php">
                 <fieldset>
                     <legend>Авторизуйтесь</legend>
-                    <input type="name" name="login" required>* Логин<br>
-                    <input type="password" name="password" required>* Пароль<br>
-                    <input type="checkbox" name="val_1" value="remember">Оставаться в системе<br>
+                    <label><input type="name" name="login" required>* Логин</label><br>
+                    <label><input type="password" name="password" required>* Пароль</label><br>
+                    <label><input type="checkbox" name="val_1" value="remember">Оставаться в системе</label><br>
                     <input type="submit" value="Войти"><br>
                     <i>* - обязательное поле</i>
                 </fieldset>
@@ -51,10 +51,10 @@
             <form name="date_voite" method="post" action="http://fe.it-academy.by/TestForm.php" value="2013.12.31">
                 <fieldset>
                     <legend>Как Вам?</legend>
-                    <input type="radio" name="radio2" value="val_1" required> ничего <br>
-                    <input type="radio" name="radio2" value="val_2" required> неплохо <br>
-                    <input type="radio" name="radio2" value="val_3" required> хорошо <br>
-                    <input type="radio" name="radio2" value="val_4" required> супер <br>                    
+                    <label><input type="radio" name="radio2" value="val_1" required> ничего</label><br>
+                    <label><input type="radio" name="radio2" value="val_2" required> неплохо</label><br>
+                    <label><input type="radio" name="radio2" value="val_3" required> хорошо</label><br>
+                    <label><input type="radio" name="radio2" value="val_4" required> супер</label><br>                    
                     <input type="submit" value="Отправить"><br>
                 </fieldset>
             </form>
@@ -65,8 +65,8 @@
             <form name="review" method="post" action="http://fe.it-academy.by/TestForm.php">
                 <fieldset>
                     <legend>Оставьте Ваш отзыв</legend>
-                    <input type="name" name="name" required>* Имя<br>
-                    <input type="email" name="email" required pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})">* e-mail<br>
+                    <label><input type="name" name="name" required>* Имя</label><br>
+                    <label><input type="email" name="email" required pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})">* e-mail</label><br>
                     <textarea name="text_area" lang="ru">Форма отправки</textarea><br>
                     <input type="submit" value="Отправить"><br>
                     <i>* - обязательное поле для заполнения</i>
