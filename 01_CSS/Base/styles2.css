@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+header{
+    text-align: right;
+}
+h1{
+    font-size: 14px;
+    
+}
+article{
+    font-family: 'Bad Script', cursive;
+}
+h3{
+    text-decoration: underline;
+}
