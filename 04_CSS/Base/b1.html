@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-indent: 2em;
+            border: 2px outset #999;
+            border-radius: 0 1em/0.5em;
+        }
+        ul{
+            list-style-image: url(../img/3d.jpg);
+        }
+        #MS:hover::after{
+            content: url(../img/2w.jpg);
+        }
+        #PDF:hover::after{
+            content: url(../img/4pdf.png);
+        }
+        #ZIP:hover::after{
+            content: url(../img/5z.gif);
+        }
+    </style>
+</head>
+<body>
+    <h1>Форматы файлов.</h1>
+    <p>.DOC или .doc (от англ. <img src="../img/1.png"><a href="">document</a>) - расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для обазначения простых текстовых файлов без формирования, однако позже стало использоваться для двоичных форматов с разметкой.<br>
+    <a href="">Документ MS word</a><img src="../img/2w.jpg"></p>
+    <p>Portable Document Format(<img src="../img/1.png"><a href="">PDF</a>) - межплатформенный формат электронных документов, разработанный фирмой Adobe Systems с использованием ряда возможностей языка Postscript.<br>
+    <a href="">Документ PDF</a><img src="../img/4pdf.png"></p>
+    <p>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <img src="../img/1.png"><a href="">.zip</a> и хранит в сжатом или несжатом виде один или несколько файлов, которое можно из него извлечь путем распаковки с помощью специальной программы.<br>
+    <a href="">Архив</a><img src="../img/5z.gif"></p>
+    <h3>Это список файлов</h3>
+    <ul>
+        <li id="MS"><a href="">Документ MS Word</a></li>
+        <li id="PDF"><a href="">Документ PDF</a></li>
+        <li id="ZIP"><a href="">Архив</a></li>
+    </ul>
+</body>
+</html>
