@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+.one {
+    width: 80%;
+    padding: 4em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image: url('img/t-l.gif'),  url('img/t-r.gif'), url('img/b-r.gif'), url('img/b-l.gif'), url('img/l.gif'), url('img/t.gif'), url('img/r.gif'), url('img/b.gif');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-x, repeat-y, repeat-x;
+    background-position: top left, top right, bottom right, bottom left, left, top, right, bottom ;
+    background-color: #ccc; 
+}
+.two { 
+    width: 80%;
+    padding: 4em;
+    margin-bottom: 40px;
+    background-image: url('img1/l-b.png'), url('img1/l-t.png'), url('img1/r-b.png'), url('img1/r-t.png'), url('img1/l.png'), url('img1/r.png'), url('img1/b.png'), url('img1/t.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+    background-position: bottom left, top left, bottom right, top right, left, right, bottom, top;
+    }
+.three {  
+    width: 80%;
+    padding: 4em;
+    margin-bottom: 40px;
+    background:
+    url('img/b-r.gif') no-repeat bottom right, 
+    url('img/b-l.gif') no-repeat bottom left, 
+    url('img/t-l.gif') no-repeat top left, 
+    url('img/t-r.gif') no-repeat top right, 
+    url('img/l.gif') repeat-y left, 
+    url('img/r.gif') repeat-y right, 
+    url('img/t.gif') repeat-x top, 
+    url('img/b.gif') repeat-x bottom;
+    background-color: rgb(123, 121, 121);
+}
+.four {
+    width: 80%;
+    padding: 2em;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 2em;
+    border-image-source: url('img1/ramka.png');
+    border-image-slice: 100;
+    border-image-repeat: stretch;
+    border-image-width: 3; 
+}
+</style>
+</head>
+<body>
+<div class="one">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in
+    ventore sint quae neque aliquid quas quidem repellendus ratione hic fugit voluptas iusto opti
+    o quasi officia quaerat quod harum, dolore id!
+</div>
+
+<div class="two">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in
+    ventore sint quae neque aliquid quas quidem repellendus ratione hic fugit voluptas iusto opti
+    o quasi officia quaerat quod harum, dolore id!
+</div>
+
+<div class="three">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in
+    ventore sint quae neque aliquid quas quidem repellendus ratione hic fugit voluptas iusto opti
+    o quasi officia quaerat quod harum, dolore id!
+</div>
+    
+</div>
+
+<div style=" width: 89%; background: url('img/b.gif') repeat-x bottom">
+    <div style="background: url('img/t.gif') repeat-x top">
+        <div style="background: url('img/r.gif') repeat-y right">
+            <div style="background: url('img/l.gif') repeat-y left">
+                <div style="background: url('img/t-r.gif') no-repeat top right">
+                    <div style="background: url('img/t-l.gif') no-repeat top left">
+                        <div style="background: url('img/b-l.gif') no-repeat bottom left">
+                            <div style="background: url('img/b-r.gif') no-repeat bottom right">
+                                <div style="padding: 4em;">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in
+                                    ventore sint quae neque aliquid quas quidem repellendus ratione hic fugit voluptas iusto opti
+                                    o quasi officia quaerat quod harum, dolore id!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="four">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, quisquam ex veniam tenetur quidem quaerat quas sit
+ facilis aliquam dolor dicta odit ipsa voluptates. Molestias provident harum dolore qui eveniet.
+</div> 
+</body>
+</html>
